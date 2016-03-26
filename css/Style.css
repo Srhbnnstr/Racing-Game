@@ -7,23 +7,36 @@ h1 {
   font-family: 'yellowtail' , 'sans-serif' , 'serif';
   font-size: 60px;
   color: white;
-  text-shadow: 0 10px 10px violet, 0 0 4px blue;
+  text-shadow: 0 10px 10px violet, 0 0 8px blue;
+}
+
+[data-key="a"] {
+  content: url("http://www.grandtheftwiki.com/images/thumb/Sentinel-GTAA.png/180px-Sentinel-GTAA.png");
+  transform: rotate(180deg);
+  height: 90%;
+}
+
+[data-key="p"] {
+  content: url("http://www.grandtheftwiki.com/images/MonsterTruck-GTAA.png");
+  transform: rotate(180deg);
+  width: 20%;
 }
 
 #trackOne {
   width: 80%;
   height: 100px;
   margin: 20px;
-  background-color: #3a3a3a;
-  border: 2px solid white;
+  background-image:url("road.jpg");
+  background-position: center;
 }
 
 #trackTwo {
   width: 80%;
   height: 100px;
-  margin: 20px;
-  background-color: #3a3a3a;
-  border: 2px solid white;
+  margin: 5px 20px;
+  background-image:url("road.jpg");
+  background-position: center;
+  ;
 }
 
 #reset {
