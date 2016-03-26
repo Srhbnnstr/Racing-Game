@@ -1,20 +1,33 @@
+body{
+  background-image: url("http://bluebotsdots.com/images/Animation_bluebotsdots.gif");
+  background-size: cover;
+}
+
+h1 {
+  font-family: 'yellowtail' , 'sans-serif' , 'serif';
+  font-size: 60px;
+  color: white;
+  text-shadow: 0 10px 10px violet, 0 0 4px blue;
+}
+
 #trackOne {
   width: 80%;
   height: 100px;
   margin: 20px;
-  border: 2px solid black;
-
+  background-color: #3a3a3a;
+  border: 2px solid white;
 }
 
 #trackTwo {
   width: 80%;
   height: 100px;
   margin: 20px;
-  border: 2px solid black;
-
+  background-color: #3a3a3a;
+  border: 2px solid white;
 }
 
 #reset {
   position: absolute;
   margin-left: 10%;
+  border: 1px solid black;
 }
