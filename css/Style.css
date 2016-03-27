@@ -7,7 +7,7 @@ h1 {
   font-family: 'yellowtail' , 'sans-serif' , 'serif';
   font-size: 65px;
   color: white;
-  text-shadow: 0 10px 10px violet, 0 0 8px blue;
+  text-shadow: 0 10px 10px violet, 0 0 20px blue;
 }
 
 #player2 {
@@ -28,7 +28,7 @@ h1 {
 #trackOne {
   width: 80%;
   height: 100px;
-  margin: 20px;
+  margin-bottom: 35px;
   background-image:url("road.jpg");
   background-position: center;
 }
@@ -36,9 +36,14 @@ h1 {
 #trackTwo {
   width: 80%;
   height: 100px;
-  margin: 5px 20px;
   background-image:url("road.jpg");
   background-position: center;
+}
+
+.finish {
+  content: url("http://www.projectm71.com/checkered.gif");
+  width: 40px;
+
 }
 
 #reset {
