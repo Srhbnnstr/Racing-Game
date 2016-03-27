@@ -16,38 +16,40 @@
     <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
 
     <!-- link to custom javascript file (always require after external JS libraries) -->
-    <script type="text/javascript" src="js/app.js"></script>
+    <script type="text/javascript" src="scripts/app.js"></script>
 
     <!-- google font -->
     <link href='https://fonts.googleapis.com/css?family=Yellowtail' rel='stylesheet' type='text/css'>
-
     <title>Night Ride</title>
   </head>
+    <!--- header --->
   <body>
     <audio autoplay="autoplay">
-     <source src="Nightcall.mp3" />     
-   </audio>
+     <source src="Nightcall.mp3" />
+    </audio>
     <div class="container">
       <div class="row text-center">
         <div class="col-md-12">
           <h1>Night Ride</h1>
           <hr>
-              </div>
-            </div>
-          </div>
-          <div class="container" id="board">
-          <div class="row">
-            <div class="col-lg-12 col-lg-offset-1">
-          <div class="container-fluid">
-          <div class="row">
-            <div class="col-xs-1 col-sm-2 col-md-6 col-lg-6" id="trackOne"><div class="player" data-key="a"></div></div>
-            <div class="col-xs-1 col-sm-2 col-md-6 col-lg-6" id="trackTwo"><div class="player" data-key="p"></div></div>
-          </div>
-         </div>
-          <div class="col-xs-1 col-sm-2 col-md-6 col-lg-12 col-xs-offset-3 col-sm-offset-3 col-md-offset-4 col-lg-offset-3">
-          <div class="row">
-                <button class="btn btn-lg btn-default" id="reset">Start Over</button>
-              </div>
-            </div>
-      </body>
-  </html>
+        </div>
+      </div>
+    </div>
+    <!--- racing tracks --->
+    <div class="container" id="board">
+     <div class="row">
+      <div class="col-lg-12 col-lg-offset-1">
+      <div class="container-fluid">
+       <div class="row">
+         <div class="col-xs-1 col-sm-2 col-md-6 col-lg-6" id="trackOne"><div id="player1"></div></div>
+         <div class="col-xs-1 col-sm-2 col-md-6 col-lg-6" id="trackTwo"><div id="player2"></div></div>
+        </div>
+      </div>
+      <!--- button --->
+    <div class="col-xs-1 col-sm-2 col-md-6 col-lg-12 col-xs-offset-3 col-sm-offset-3 col-md-offset-4 col-lg-offset-3">
+        <div class="row">
+        <button class="btn btn-lg btn-default" id="reset">Start Over</button>
+      </div>
+    </div>
+  </body>
+</html>
