@@ -1,6 +1,12 @@
 body{
   background-image: url("http://bluebotsdots.com/images/Animation_bluebotsdots.gif");
   background-size: cover;
+  background-color: black;
+  background-repeat: no-repeat;
+}
+
+#audioControl{
+  color: white;
 }
 
 h1 {
@@ -8,20 +14,22 @@ h1 {
   font-size: 65px;
   color: white;
   text-shadow: 0 10px 10px violet, 0 0 20px blue;
+  margin-top: -40px;
 }
 
-#player2 {
+
+#p1 {
+  content: url("http://www.grandtheftwiki.com/images/MonsterTruck-GTAA.png");
+  transform: rotate(180deg);
+  width: 180px;
+  position: absolute;
+}
+
+#p2 {
   content: url("http://www.grandtheftwiki.com/images/thumb/Sentinel-GTAA.png/180px-Sentinel-GTAA.png");
   transform: rotate(180deg);
   height: 90%;
   width: 185px;
-  position: absolute;
-}
-
-#player1 {
-  content: url("http://www.grandtheftwiki.com/images/MonsterTruck-GTAA.png");
-  transform: rotate(180deg);
-  width: 180px;
   position: absolute;
 }
 

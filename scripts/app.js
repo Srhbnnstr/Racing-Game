@@ -2,8 +2,25 @@ $(document).ready(function() {
 
   console.log('JS is loaded!');
 
+  var yourAudio = document.getElementById('yourAudio'),
+    ctrl = document.getElementById('audioControl');
+
+ctrl.onclick = function () {
+
+    // Update the Button
+    var pause = ctrl.innerHTML === 'pause!';
+    ctrl.innerHTML = pause ? 'play!' : 'pause!';
+
+    // Update the Audio
+    var method = pause ? 'pause' : 'play';
+    yourAudio[method]();
+
+    // Prevent Default Action
+    return false;
+  };
+
   $reset = $('#reset');
-  $player = $('#player1, #player2');
+  $player = $('.player');
   var winner = null;
 
 //resets game
@@ -20,16 +37,16 @@ $(document).ready(function() {
   $('body').keydown(function(e) {
     var offset = 10;
       if(e.keyCode == '65') {
-      var pos = $("#player1").position();
-      $("#player1").css('left', pos.left + offset);
+      var pos = $("#p1").position();
+      $("#p1").css('left', pos.left + offset);
       } else if(e.keyCode == '80') {
-      var pos = $("#player2").position();
-        $("#player2").css('left',pos.left + offset);
+      var pos = $("#p2").position();
+        $("#p2").css('left',pos.left + offset);
       }
 
       // player reaches finish line
-  if ('#player1' || '#player2'.offset().left >= $('#tracks').width() - $player.width()) {
-    var winner = $player;
+  if ($player.offset().left >= $('#tracks').width() - $player.width()) {
+    var winner = document.getElementById('.player');
     executeWin();
   }
 
