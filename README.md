@@ -21,4 +21,4 @@ Night Ride is a two player racing game with an 80's vibe and sweet background mu
 *needs explosions... (losing car explodes with javascript animation)
 
 ##Screenshot (optional)
-![alt text](https://github.com/project-00/screenshot.jpg)
+project-00/screenshot.jpg
