@@ -36,7 +36,7 @@ ctrl.onclick = function () {
 
  //assigns keycode to each player, moves player with correct keypress
   $('body').keydown(function(e) {
-    var offset = 100;
+    var offset = 10;
       if(e.keyCode == '65') {
       var pos = $player.position();
       $("#p1").css('left', pos.left + offset);
@@ -45,7 +45,9 @@ ctrl.onclick = function () {
         $("#p2").css('left',pos.left + offset);
       }
 
-        if ($player.offset().left >= $('#tracks').width() - $player.width()) {
+        if ($("#p1").offset().left >= $('#tracks').width() - $player.width()) {
+          executeWin();
+        } else if ($("#p2").offset().left >= $('#tracks').width() - $player.width()) {
           executeWin();
         }
 
