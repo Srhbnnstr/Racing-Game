@@ -1,5 +1,5 @@
 #Racing Game
-Night Ride is a two player racing game with an 80's vibe and sweet background music! Two players must race to compete to the finish line by tapping their assigned key, whoever reaches first is the winner.
+Night Ride is a two player racing game with an 80's vibe and sweet background music! Two players must race to the finish line by tapping their assigned key, whoever reaches first is the winner.
 
 ##Technologies Used
 
