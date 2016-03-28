@@ -18,6 +18,7 @@ body{
 h1 {
   font-family: 'yellowtail' , 'sans-serif' , 'serif';
   font-size: 65px;
+  text-align: center;
   color: white;
   text-shadow: 0 10px 10px violet, 0 0 20px blue;
   margin-top: -40px;

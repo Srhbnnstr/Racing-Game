@@ -30,7 +30,7 @@ ctrl.onclick = function () {
   };
 
   var executeWin = function() {
-    alert("Well done ");
+    alert("Hot damn, " + winner + "! You win!" );
     race();
   };
 
@@ -46,8 +46,10 @@ ctrl.onclick = function () {
       }
 
         if ($("#p1").offset().left >= $('#tracks').width() - $player.width()) {
+          winner = 'player 1';
           executeWin();
         } else if ($("#p2").offset().left >= $('#tracks').width() - $player.width()) {
+          winner = 'player 2';
           executeWin();
         }
 

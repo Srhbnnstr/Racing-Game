@@ -4,7 +4,7 @@ Night Ride is a two player racing game with an 80's vibe and sweet background mu
 ##Technologies Used
 
 * HTML
-* CSS
+* CSS & Bootstrap
 * javascript
 * jQuery
 
