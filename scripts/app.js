@@ -19,9 +19,10 @@ ctrl.onclick = function () {
     return false;
   };
 
-  $reset = $('#reset');
-  $player = $('.player');
-  var winner = null;
+  var $reset = $('#reset');
+  var $player = $('.player');
+  var winner= 'null';
+
 
 //resets game
   var race= function() {
@@ -29,26 +30,24 @@ ctrl.onclick = function () {
   };
 
   var executeWin = function() {
-    alert("Well done.");
+    alert("Well done ");
     race();
   };
 
  //assigns keycode to each player, moves player with correct keypress
   $('body').keydown(function(e) {
-    var offset = 10;
+    var offset = 100;
       if(e.keyCode == '65') {
-      var pos = $("#p1").position();
+      var pos = $player.position();
       $("#p1").css('left', pos.left + offset);
-      } else if(e.keyCode == '80') {
+    } else if(e.keyCode == '80') {
       var pos = $("#p2").position();
         $("#p2").css('left',pos.left + offset);
       }
 
-      // player reaches finish line
-  if ($player.offset().left >= $('#tracks').width() - $player.width()) {
-    var winner = document.getElementById('.player');
-    executeWin();
-  }
+        if ($player.offset().left >= $('#tracks').width() - $player.width()) {
+          executeWin();
+        }
 
     $reset.on('click', function() {
      race();

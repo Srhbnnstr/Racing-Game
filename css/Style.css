@@ -1,3 +1,5 @@
+/*body & background image*/
+
 body{
   background-image: url("http://bluebotsdots.com/images/Animation_bluebotsdots.gif");
   background-size: cover;
@@ -5,9 +7,13 @@ body{
   background-repeat: no-repeat;
 }
 
+/*audio control section*/
 #audioControl{
   color: white;
+  font-size: 20px;
 }
+
+/*header*/
 
 h1 {
   font-family: 'yellowtail' , 'sans-serif' , 'serif';
@@ -17,6 +23,7 @@ h1 {
   margin-top: -40px;
 }
 
+/*player characteristics*/
 
 #p1 {
   content: url("http://www.grandtheftwiki.com/images/MonsterTruck-GTAA.png");
@@ -32,6 +39,8 @@ h1 {
   width: 185px;
   position: absolute;
 }
+
+/*tracks*/
 
 #trackOne {
   width: 80%;
@@ -53,6 +62,8 @@ h1 {
   width: 40px;
 
 }
+
+/*reset button*/
 
 #reset {
   position: absolute;
