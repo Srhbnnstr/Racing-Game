@@ -24,4 +24,4 @@ Night Ride is a two player racing game with an 80's vibe and sweet background mu
 **
 
 ##Screenshot (optional)
-![Alt text](/racing-game/screenshot.jpg?raw=true "screenshot")
+![Alt image](/racing-game/screenshot.jpg?raw=true "screenshot")
