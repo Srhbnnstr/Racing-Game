@@ -12,11 +12,12 @@ Night Ride is a two player racing game with an 80's vibe and sweet background mu
 
 * Pleasing user experience
 * Game play for two-players
+* instructions for player 1 and player 2
 * Audio controls to play or pause the background music
 
 ##Planned Features
 
-* would like to add a win counter.
+* would like to add a win counter
 * needs explosions... (losing car explodes with javascript animation)
 
 ##Screenshot
