@@ -25,4 +25,4 @@ Night Ride is a two player racing game with an 80's vibe and sweet background mu
 
 ##Play the Game!
 
-[Play Night Ride on Bit Balloon](nightride-project-00.bitballoon.com)
+[Play Night Ride on Bit Balloon](http://nightride-project-00.bitballoon.com/)
