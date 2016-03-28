@@ -39,7 +39,7 @@ $(document).ready(function() {
 
    //assigns keycode to each player, moves player with correct keypress
   $('body').keydown(function(e) {
-    var offset = 10;
+    var offset = 20;
       if(e.keyCode == '65') {
       var pos = $player.position();
       $("#p1").css('left', pos.left + offset);
