@@ -13,7 +13,7 @@ body{
   font-size: 20px;
 }
 
-/*header*/
+/*header & instructions*/
 
 h1 {
   font-family: 'yellowtail' , 'sans-serif' , 'serif';
@@ -22,6 +22,14 @@ h1 {
   color: white;
   text-shadow: 0 10px 10px violet, 0 0 20px blue;
   margin-top: -40px;
+}
+
+#instructions {
+  color: white;
+  font-size: 24px;
+  margin-bottom: 20px;
+  text-align: center;
+  background:rgba(000,000,000,0.5);
 }
 
 /*player characteristics*/
